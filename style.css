@@ -542,6 +542,8 @@ nav {
     flex: 0 0 100%; /* Don't allow the header to grow or shrink */
 }
 
+
+
 .slide p {
     font-family: 'TT Norms Pro', sans-serif;
     font-size: 20px;
@@ -560,6 +562,13 @@ nav {
 /* Display the first slide by default */
 #slides-container .slide:first-child {
     display: block;
+}
+
+.item3-content p{
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 20;
+    color: white;
 }
 
 /* Styling for the slideshow buttons */
@@ -968,7 +977,6 @@ text-align:center ;
     align-items: flex-start;
     margin: 20px 0;
     flex-wrap: wrap; /* Add wrap to handle responsiveness */
-    padding: 250px;
 
 }
 
